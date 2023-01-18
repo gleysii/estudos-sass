@@ -1,1 +1,1 @@
-Esse repositório é para reunir os meus estudos em Sass! 
+Esse repositório é para reunir as atividades dos meus estudos em Sass!
