@@ -1,0 +1,12 @@
+Criar uma pasta styles, criar um arquivo style.scss, dar ctrl + shift + p e selecionar live saas: watch saas, dois arquivos serão criados. 
+
+No link do html para a folha de estilo o arquivo vai ficar com extessão css mesmo porque o navegador NÃO compila arquivo com a extesão ".scss", o que o saas faz é compilar tudo para um arquivo .css para o navegador interpretar depois.
+
+Com ele é possível:
+
+- codar a folha de estilo aninhada;
+- criar variáveis de estilo, ex: $cor-principal: #FFD4D4;
+- evitar códigos duplicados por meio do mixin 
+
+
+
