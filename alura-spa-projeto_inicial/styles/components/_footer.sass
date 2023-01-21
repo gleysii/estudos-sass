@@ -1,0 +1,19 @@
+@import '../abstract/_variaveis'
+
+@mixin bg-cores($lado, $cores...)
+    @if $lado == left
+        background: linear-gradient(to left, $cores)
+    @else 
+        background: linear-gradient(to right, $cores)
+
+footer
+    text-align: center
+    font-size: $tamanho-do-texto / 2 
+    border-radius: 10px
+    padding: 3rem
+    margin: 0 
+    @include bg-cores("left", $cor-primaria, $cor-secundaria, $cor-terciaria, $cor-terciaria)
+    i
+        color: red
+
+    

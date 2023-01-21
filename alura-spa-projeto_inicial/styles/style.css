@@ -21,4 +21,153 @@ nav ul li a:hover {
   border: 2px solid #86C8BC;
   opacity: 100%;
   transform: 0.2s;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  display: flex;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #86C8BC;
+  opacity: 0.9;
+  border-radius: 5%;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #FFD4B2;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  color: #679e94;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  text-align: center;
+  font-size: 2.5rem s;
+  margin-bottom: 80px;
+  font-weight: 300;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #CEEDC7;
+}
+#servicos .cards p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #679e94;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 7px;
+  border-bottom: 4px solid #86C8BC;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #86C8BC;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 3px solid white;
+  background-color: white;
+}
+#cupom .input input {
+  border-end-end-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  outline: auto;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  border: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid black;
+  color: #679e94;
+  cursor: pointer;
+}
+#cupom button:hover {
+  background-color: #CEEDC7;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: 3rem;
+  margin: 0;
+  background: linear-gradient(to left, #FFD4B2, #CEEDC7, #86C8BC, #86C8BC);
+}
+footer i {
+  color: red;
+}
+
+#pedra-e-flor {
+  text-align: center;
+}
+#pedra-e-flor img {
+  padding: 3rem;
+  width: 30%;
+}
+#pedra-e-flor h3, #pedra-e-flor h4 {
+  text-transform: uppercase;
+  letter-spacing: 2pt;
+  font-weight: 300;
+  color: #679e94;
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+#pedra-e-flor p {
+  padding-top: 1rem;
+  font-weight: 300;
+  color: black;
+  padding-bottom: 1rem;
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */

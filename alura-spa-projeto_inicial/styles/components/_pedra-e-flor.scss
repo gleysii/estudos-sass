@@ -1,0 +1,25 @@
+@import '../abstract/variaveis';
+
+#pedra-e-flor{
+    text-align: center;
+
+    img{
+        padding: 3rem;
+        width: 30%;
+    }
+    h3, h4{
+        text-transform: uppercase;
+        letter-spacing: 2pt;
+        font-weight: 300;
+        color: $cor-quarternaria;
+        padding-bottom: 0.5rem;
+        font-size: $tamanho-do-texto / 2.5;
+    }
+    p{
+        padding-top: 1rem;
+        font-weight: 300;
+        color: black;
+        padding-bottom: 1rem;
+        font-size: $tamanho-do-texto / 3;
+    }
+}
